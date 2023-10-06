@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* #logo {
+  width: 200px;
+  margin: 1rem 0;
+}
+.rettangolo {
+  width: 800px;
+  height: 180px;
+  background-color: blue;
+  color: white;
+  text-align: right;
+  line-height: 90px;
+}
+hr {
+  display: none;
+}
+header {
+  background: darkslategrey;
+  background: linear-gradient(180deg, rgb(2, 17, 73) 0%, rgb(2, 48, 58) 68%);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 3px 3px #444;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+}
+h1 {
+  text-align: right;
+  margin: 0;
+  color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+}
+footer {
+  background: rgb(53, 53, 53);
+  background: linear-gradient(
+    0deg,
+    rgba(53, 53, 53, 1) 0%,
+    rgba(5, 85, 103, 1) 68%
+  );
+  box-shadow: 0 3px 3px #444;
+  color: #f0f0f0;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2rem;
+}
+footer a {
+  color: darkslategray;
+}
